@@ -1,7 +1,7 @@
 import tweenState from 'react-tween-state';
 import NativeButton from './NativeButton';
 import styles from './styles';
-
+import {ViewPropTypes} from 'deprecated-react-native-prop-types
 import React, {
   Component,
 } from 'react';
@@ -14,7 +14,6 @@ import {
   StyleSheet,
   Text,
   View,
-  ViewPropTypes,
 } from 'react-native';
 
 const SwipeoutBtn = createReactClass({
