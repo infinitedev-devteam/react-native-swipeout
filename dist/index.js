@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
+ var ViewPropTypes = require('deprecated-react-native-prop-types').ViewPropTypes 
 var _reactTweenState = require('react-tween-state');
 
 var _reactTweenState2 = _interopRequireDefault(_reactTweenState);
@@ -123,7 +123,7 @@ var Swipeout = (0, _createReactClass2.default)({
     onClose: _propTypes2.default.func,
     right: _propTypes2.default.array,
     scroll: _propTypes2.default.func,
-    style: (_reactNative.ViewPropTypes || _reactNative.View.propTypes).style,
+    style: (ViewPropTypes).style,
     sensitivity: _propTypes2.default.number,
     buttonWidth: _propTypes2.default.number,
     disabled: _propTypes2.default.bool
